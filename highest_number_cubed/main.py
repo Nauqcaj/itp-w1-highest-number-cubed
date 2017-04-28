@@ -2,7 +2,7 @@
 
 def highest_number_cubed(limit):
     
-    previous_number = 1 
+    num1 = 1 
     
     while True:
         current_number = previous_number + 1
@@ -21,16 +21,6 @@ def highest_number_cubed(limit):
             return number -1
 '''
 
-
-
 '''
-def highest_number_cubed(limit):
-    previous_number = 1
-    
-    while True:
-        current_number = previous_number + 1
-        if current_number ** 3 > limit:
-            return previous_number
-            
-        previous_number = current_number
+Use the cubed root logic: (number ** (1/3)
 '''
