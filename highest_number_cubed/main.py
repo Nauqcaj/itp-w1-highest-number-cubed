@@ -21,5 +21,6 @@ def highest_number_cubed(limit):
 '''
 
 '''
-Use the cubed root logic: (number ** (1/3)
+    floater = limit ** (1./3)
+    return int(floater)
 '''
