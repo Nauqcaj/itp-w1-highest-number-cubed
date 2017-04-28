@@ -1,8 +1,7 @@
 """This is the entry point of the program."""
 
 def highest_number_cubed(limit):
-    
-    num1 = 1 
+    previous_number = 1 
     
     while True:
         current_number = previous_number + 1
